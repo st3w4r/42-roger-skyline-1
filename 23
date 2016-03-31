@@ -1,0 +1,2 @@
+service ssh status
+[FAIL] sshd is not running ... failed!

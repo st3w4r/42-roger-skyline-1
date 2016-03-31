@@ -1,0 +1,31 @@
+Sur le domaine 42.fr avec les serveurs DNS local il y a plusieurs adresse dans la liste des resolutions.
+Avec le serveur DNS de google seule les adresses Public apparaisent dans la liste.
+
+Serveur DNS de l'ecole
+
+nslookup 42.fr
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+Non-authoritative answer:
+Name:	42.fr
+Address: 62.210.35.4
+Name:	42.fr
+Address: 62.210.35.5
+Name:	42.fr
+Address: 10.52.1.11
+Name:	42.fr
+Address: 10.52.1.11
+
+
+Serveur DNS de Google:
+
+nslookup 42.fr 8.8.8.8
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	42.fr
+Address: 62.210.35.5
+Name:	42.fr
+Address: 62.210.35.4
